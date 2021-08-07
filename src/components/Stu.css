@@ -1,0 +1,11 @@
+.right{
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.left{
+    width: 60%;
+    display: inline-block;
+    vertical-align: middle;
+}

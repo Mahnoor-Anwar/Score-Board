@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+import React ,{Component} from 'react';
 import './App.css';
+import Student from './components/Student';
 
-function App() {
+class  App extends Component {
+  render(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+    <h1 className="Leader">Leadersboard</h1>
+     <Student name="Azhar" university="FAST" score={349} /> 
+     <Student name="Amir" university="University of Karachi" score={348} /> 
+     <Student name="Danella" university="DHA Suffa" score={347}/> 
+     <Student name="Mahnoor" university="DHA Suffa" score={346}/> 
+     <Student name="Ebrahim" university="Sindh Madresstul Islam University" score={344}/> 
+     <Student name="Dua" university="University of Karachi" score={345}/> 
+     <Student name="Shahroz" university="Sindh Madresstul islam university" score={343}/> 
+</div> 
   );
+  }
 }
 
 export default App;

@@ -41,56 +41,10 @@
   width: 40%;
   display: inline-block;
   vertical-align: middle;
-  margin-left: 20cm;
-  margin-top: -2cm;
-  text-align: right;
 }
 
 .left{
   width: 60%;
   display: inline-block;
   vertical-align: middle;
-  margin-left: -6cm;
-
-
-}
-.student{
-  width: 700px;
-  margin: 0 auto;
-  display: block;
-  
-}
-h2.studentName{
-  margin: 0px;
-  padding: 0px;
-}
-div{
-  display: block;
-}
-p.universityName{
-  margin: 0px;
-  padding: 0px;
-}
-.score{
-  font-size: 30px;
-  font-weight: bold;
-  color: green;
-}
-.Leader{
-  text-align: center;
-}
-button{
-  border: none;
-  background-color: orange;
-  border-width: 150px;
-  border-radius: 150px;
-  color: white;
-}
-.fail{
-  background-color: red;
-  color: white;
-}
-.success{
-  background-color: rgb(9, 121, 9);
-  color: white;
 }
